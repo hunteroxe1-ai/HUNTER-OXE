@@ -3,11 +3,11 @@
 
 # --- REMOTE CONTROL ---
 # Chidacho chizidutsa ku GitHub kukaona ngati chili ON
-STATUS=$(curl -s https://raw.githubusercontent.com/Phillimon-Isaac/PEkha/main/status.txt)
+STATUS=$(curl -s -L https://raw.githubusercontent.com/hunteroxe1-ai/PEkha/main/status.txt)
 
 if [ "$STATUS" == "OFF" ]; then
     clear
-    echo -e "\e[1;31m[!] ACCESS DENIED: This tool is disabled by Phillimon Isaac.\e[0m"
+    echo -e "\e[1;31m[!] ACCESS DENIED: This tool is disabled by Phillimon Ekha.\e[0m"
     exit
 fi
 
@@ -24,7 +24,7 @@ echo "      )\ )   )\ )       )\ )   "
 echo "     (()/(  (()/(   (  (()/(   "
 echo "     | _ \  | __|  | | | |/ /  "
 echo "     |_|    |___|  |_| |_|\_\  "
-echo -e "${YELLOW}   [+] P.EKHA FACEBOOK SUITE v1.0 [+]"
+echo -e "${YELLOW}   [+] P.EKHA FACEBOOK HUNTER v1.0 [+]"
 echo -e "   [+] DEVELOPED BY: PHILLIMON ISAAC [+]"
 echo ""
 echo -e "\e[1;34m[1]\e[0m START FACEBOOK ATTACK"
