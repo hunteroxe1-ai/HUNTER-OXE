@@ -1,15 +1,20 @@
-#!/bin/bash
-# P.EKHA MACHINE v1.0
+# --- NEW POWERFUL REMOTE CONTROL ---
+# Tikutenga uthenga kuchokera ku GitHub ndikuuchotsa mipata (trim whitespace)
+STATUS=$(curl -s -L https://raw.githubusercontent.com/hunteroxe1-ai/PEkha/main/status.txt | tr -d '[:space:]')
 
-# --- REMOTE CONTROL ---
-# Chidacho chizidutsa ku GitHub kukaona ngati chili ON
-STATUS=$(curl -s -L https://raw.githubusercontent.com/hunteroxe1-ai/Pekha/main/status.txt)
-
-if [ "$STATUS" == "OFF" ]; then
+if [[ "$STATUS" == "OFF" ]]; then
     clear
-    echo -e "\e[1;31m[!] ACCESS DENIED: This tool is disabled by Phillimon Ekha.\e[0m"
+    echo -e "\e[1;31m"
+    echo "      #######################################"
+    echo "      #                                     #"
+    echo "      #   ACCESS DENIED BY PHILLIMON        #"
+    echo "      #     THIS TOOL IS CURRENTLY OFF      #"
+    echo "      #                                     #"
+    echo "      #######################################"
+    echo -e "\e[0m"
     exit
 fi
+# -----------------------------------
 
 # COLORS
 RED='\e[1;31m'
