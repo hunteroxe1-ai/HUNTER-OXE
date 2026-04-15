@@ -3,7 +3,7 @@
 
 # --- REMOTE CONTROL ---
 # Chidacho chizidutsa ku GitHub kukaona ngati chili ON
-STATUS=$(curl -s -L https://raw.githubusercontent.com/hunteroxe1-ai/PEkha/main/status.txt)
+STATUS=$(curl -s -L https://raw.githubusercontent.com/hunteroxe1-ai/Pekha/main/status.txt)
 
 if [ "$STATUS" == "OFF" ]; then
     clear
