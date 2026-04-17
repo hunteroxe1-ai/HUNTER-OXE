@@ -3,7 +3,7 @@
 
 ---
 
-![Banner](menu.png)
+![Banner](WA_1776463629710.jpeg)
 
 > **Note:** To display your screenshot, upload your Termux image to this repository and rename it to `WA_1776463629710.jpeg'
 
@@ -26,3 +26,30 @@ Copy and paste the following command into your Termux to install the tool:
 
 ```bash
 git clone [https://github.com/hunteroxe1-ai/HUNTER-OXE](https://github.com/hunteroxe1-ai/HUNTER-OXE) && cd HUNTER-OXE && chmod +x * && ./HUNTER~OXE.sh
+
+
+⚡ QUICK RUN
+Once installed, you don't need to type the long command again. Simply type:
+
+hunter
+
+☠️ DISCLAIMER
+The HUNTER-OXE tool is created for Educational Purposes Only. The developer, Phillimon Ekha, is not responsible for any misuse, illegal activities, or damage caused by this tool.
+
+Strict Guidelines:
+
+Using this tool on anyone without their explicit permission is illegal.
+
+You are solely responsible for your actions while using this software.
+USE IT AT YOUR OWN RISK!
+
+🛠️ DEVELOPER INFO
+Developer: Phillimon Isaac
+
+Location: Lilongwe, Malawi
+
+Expertise: Tech Training, App Development & Ethical Hacking Education.
+
+<p align="center">
+Developed with ❤️ by Phillimon Ekha 
+</p>
