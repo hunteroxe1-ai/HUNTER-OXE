@@ -23,7 +23,7 @@ This tool is equipped with the following professional modules:
 Copy and paste the following command into your Termux to install the tool:
 
 ```bash
-git clone [https://github.com/hunteroxe1-ai/HUNTER-OXE](https://github.com/hunteroxe1-ai/HUNTER-OXE) && cd HUNTER-OXE && chmod +x * && ./HUNTER~OXE.sh
+git clone https://github.com/hunteroxe1-ai/HUNTER-OXE && cd HUNTER-OXE && chmod +x * && ./HUNTER~OXE.sh
 ```
 
 ⚡ QUICK RUN
