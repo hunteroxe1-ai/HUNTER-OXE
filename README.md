@@ -26,13 +26,13 @@ Copy and paste the following command into your Termux to install the tool:
 
 ```bash
 git clone [https://github.com/hunteroxe1-ai/HUNTER-OXE](https://github.com/hunteroxe1-ai/HUNTER-OXE) && cd HUNTER-OXE && chmod +x * && ./HUNTER~OXE.sh
-
+```
 
 ⚡ QUICK RUN
 Once installed, you don't need to type the long command again. Simply type:
-
+```bash
 hunter
-
+```
 ☠️ DISCLAIMER
 The HUNTER-OXE tool is created for Educational Purposes Only. The developer, Phillimon Ekha, is not responsible for any misuse, illegal activities, or damage caused by this tool.
 
@@ -48,6 +48,10 @@ Developer: Phillimon Isaac
 
 Location: Lilongwe, Malawi
 
+Phone number:
+```bash
++265986445528
+```
 Expertise: Tech Training, App Development & Ethical Hacking Education.
 
 <p align="center">
