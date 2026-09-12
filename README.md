@@ -5,8 +5,6 @@
 
 ![Banner](WA_1776463629710.jpeg)
 
-> **Note:** To display your screenshot, upload your Termux image to this repository and rename it to `WA_1776463629710.jpeg'
-
 ---
 
 ### 🚀 FEATURES
