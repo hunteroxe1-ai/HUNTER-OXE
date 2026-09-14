@@ -29,7 +29,8 @@ git clone https://github.com/hunteroxe1-ai/HUNTER-OXE && cd HUNTER-OXE && chmod 
 ⚡ QUICK RUN
 Once installed, you don't need to type the long command again. Simply type:
 ```bash
-hunter
+cd ~/HUNTER-OXE
+./HUNTER~OXE.sh
 ```
 ☠️ DISCLAIMER
 The HUNTER-OXE tool is created for Educational Purposes Only. The developer, Phillimon Ekha, is not responsible for any misuse, illegal activities, or damage caused by this tool.
